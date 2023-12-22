@@ -1,0 +1,34 @@
+[CHAI]
+name = "CHAI"
+description = "CHAI is a heterdyne reciever"
+
+[CHAI.modules.LFA]
+name = "LFA"
+pixels = 64
+
+[CHAI.modules.HFA]
+name = "HFA"
+pixels = 64
+
+
+[Prime-Cam]
+name = "Prime-Cam"
+description = "Prime-Cam is a camera"
+
+[Prime-Cam.modules.EoRSpec]
+name = "EoRSpec"
+
+[Prime-Cam.modules.220GHz]
+name = "220GHz"
+
+[Prime-Cam.modules.280GHz]
+name = "280GHz"
+
+[Prime-Cam.modules.350GHz]
+name = "350GHz"
+
+[Prime-Cam.modules.410GHz]
+name = "410GHz"
+
+[Prime-Cam.modules.850GHz]
+name = "850GHz"

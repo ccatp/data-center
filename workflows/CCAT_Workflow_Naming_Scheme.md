@@ -8,12 +8,14 @@ particularly for the CHAI and Prime-Cam instruments.
 The naming scheme follows this format:
 
 ``` txt
-CCAT_[InstrumentCode]_[ProcessType]_[SpecificTask]_[ActiveYears]_[Version]
+CCAT_[ProjectCode]_[InstrumentCode]_[ProcessType]_[SpecificTask]_[ActiveYears]_[Version]
 ```
 
 ### Components
 
 - **CCAT**: Fixed prefix indicating the CCAT observatory.
+- **ProjectCode**: Code representing the project this workflow belongs to see the
+  projects folder.
 - **InstrumentCode**: Code representing the specific instrument.
   - `CHAI` for the CHAI instrument.
   - `PrimeCam` for the Prime-Cam instrument.
@@ -27,7 +29,7 @@ CCAT_[InstrumentCode]_[ProcessType]_[SpecificTask]_[ActiveYears]_[Version]
 
 ### Example Names
 
-- `CCAT_CHAI_DataProc_SpectralAnalysis_2025_v1`
+- `CCAT_P1_CHAI_DataProc_SpectralAnalysis_2025_v1`
 
 ### Updating Convention
 

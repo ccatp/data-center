@@ -1,0 +1,36 @@
+# Project Title
+title = "Project Title"
+
+[project]
+identifier = "PID1234"
+description = "Short description of the project's objectives and scientific goals."
+
+[observing_methods]
+method1 = "Description"
+method2 = "Description"
+
+[data_characteristics]
+expected_data_format = "Format"
+estimated_data_size = "Size in TB/GB"
+data_acquisition_rate = "Rate in GB/hr"
+
+[project_timeline]
+estimated_duration = "X months/years"
+start_date = "YYYY-MM-DD"
+end_date = "YYYY-MM-DD"
+
+[observation_windows]
+window1 = "YYYY-MM-DD to YYYY-MM-DD"
+window2 = "YYYY-MM-DD to YYYY-MM-DD"
+
+[final_data_products]
+product1 = "Description"
+product2 = "Description"
+
+[additional_information]
+# Add any other relevant information here
+
+[metadata]
+last_updated = "YYYY-MM-DD"
+contact_person = "Name"
+tags = ["Tag1", "Tag2"]

@@ -1,0 +1,49 @@
+[EOR]
+title = "Epoch of Reionization"
+lead = ["Dominik Riechers"]
+deputy_lead = ["Gordon Stacey"]
+instrument = ["Prime-Cam"]
+modules = ["EORSPEC"]
+
+[GEOCT]
+title = "Tracing galaxy evolution over cosmic time"
+lead = ["Nick Battaglia"]
+deputy_lead = ["Kaustuv Basu"]
+instrument = ["Prime-Cam"]
+modules = ["EORSPEC"]
+
+[RS]
+title = "Rayleigh Scattering"
+lead = ["Daan Meerburg"]
+deputy_lead = ["Joel Meyers"]
+instrument = ["Prime-Cam"]
+modules = ["EORSPEC"]
+
+[CMBF]
+title = "Measuring CMB foregrounds"
+lead = []
+deputy_lead = []
+instrument = ["Prime-Cam"]
+modules = ["EORSPEC"]
+
+[GP]
+title = "Galactic Polarization"
+lead = []
+deputy_lead = []
+instrument = ["Prime-Cam"]
+modules = ["EORSPEC"]
+
+
+[TDP]
+title = "Time domain phenomena"
+lead = []
+deputy_lead = []
+instrument = ["Prime-Cam"]
+modules = ["EORSPEC"]
+
+[GECO]
+title = "Galactic Ecology"
+lead = ["Robert Simon"]
+deputy_lead = ["Gordon Stacey"]
+instrument = ["CHAI"]
+modules = ["LFA", "HFA"]

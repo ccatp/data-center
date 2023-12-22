@@ -1,0 +1,43 @@
+####
+[DSS]
+title = "Deep Sky Survey"
+
+[DSS.fields.E-COSMOS]
+title = "Deep Sky Survey E-COSMOS"
+
+[DSS.fields.E-CDFS]
+title = "Deep Sky Survey E-CDFS"
+
+####
+[WFS]
+title = "Wide Field Survey"
+
+[WFS.fields.AdvACTSO]
+title = "Wide Field Survey AdvACTSO"
+
+####
+[CIB-Mid]
+title = "Cosmic Infrared Background (Mid)"
+
+[CIB-Mid.fields.GAMA]
+title = "Cosmic Infrared Background (Mid) GAMA"
+
+####
+[GalPol]
+title = "Galactic Polarization"
+
+[GalPol.fields.MW]
+title = "Galactic Polarization MW"
+
+[GalPol.fields.LMC]
+title = "Galactic Polarization LMC"
+
+[GalPol.fields.ISM]
+title = "Galactic Polarization ISM"
+
+####
+[PSM]
+title = "Protostar Monitor"
+
+[PSM.fields.MWCloud]
+title = "Protostar Monitor MWCloud"

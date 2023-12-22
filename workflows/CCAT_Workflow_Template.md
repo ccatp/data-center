@@ -1,18 +1,26 @@
 # Workflow Name
 
-Use Naming Scheme from `CCAT_Workflow_Template.md` and store the file with the same name in this folder.
+Use Naming Scheme from `CCAT_Workflow_Template.md` and store the file with the same name
+in this folder.
+
+## Dependent on
+
+- Workflow Name 1
+- Workflow Name 2
 
 ## Overview
 
-Brief description of the workflow, its purpose, and its relevance to the observatory's goals. Also outline for what time range these workflows needs to be active. This will allow streamlining, hardware and software requirements and optimize the development. For this scope we aim at very consise documents that include the major corner stones of the workflows
+Brief description of the workflow, its purpose, and its relevance to the observatory's
+goals. Also outline for what time range these workflows needs to be active. This will
+allow streamlining, hardware and software requirements and optimize the development. For
+this scope we aim at very concise documents that include the major corner stones of the
+workflows
 
-## Main Contact for this workflow
+## Contact Person
 
-Name persons that will maintain and take care for this workflow. The data center team will work to implement all workflows in time for when they need to be in place. The scientific analysis and processing that is needed by the workflow will have to be defined by the scientist that take care of the projects for which this workflow is needed. 
-
-## Science Goals
-
-Outline the specific scientific objectives that this workflow aims to achieve.
+The contact person will maintain and take care for this workflow. The data center team
+will work to implement the workflow. The contact person is responsible to define the
+workflow and for providing the scientific analysis and reduction algorithms.
 
 ## Instruments/Modules Involved
 
@@ -22,7 +30,7 @@ Outline the specific scientific objectives that this workflow aims to achieve.
 ## Input Data
 
 - Data Source: Description of the raw data, including format and initial volume.
-- Data Acquisition: How often is the data is collected. 
+- Data Acquisition: How often is the data is collected.
 
 ## Processing Steps
 
@@ -33,20 +41,41 @@ Very brief overview what will be done to the data.
    - [ ] Additional notes or sub-steps.
 3. Step Three: Brief description.
 
+
 ## Computational Requirements
 
-Estimate the computational requirements for one run of this workflow as best as you can. For daily workflows that process the incoming raw data under normal operations estimate the computational needs for each "batch" of data that comes in and give the cumulative storage size for the final raw data once all of the data for this workflow has been taken.  
+Estimate the computational requirements for one run of this workflow as best as you can.
+For daily workflows that process the incoming raw data under normal operations estimate
+the computational needs for each "batch" of data that comes in and give the cumulative
+storage size for the final raw data once all of the data for this workflow has been
+taken.  
 
-Please update these estimates when better guesses become available. This is one of the most important part of this workflow definition for the data center team to estimate the computational requirements in time for hardware proposals.
+Please update these estimates when better guesses become available. This is one of the
+most important part of this workflow definition for the data center team to estimate the
+computational requirements in time for hardware proposals.
 
 - Estimated storage needs for each "batch" and "cumulative sum"
 - Processing power required.
 - Memory requirements.
 
+## Workflow Resource Requirements
+
+| Time Range      | Estimated Storage per Batch | Cumulative Storage | Processing Power | Memory Requirements |
+|-----------------|-----------------------------|--------------------|------------------|---------------------|
+| Time Range 1    | X TB                        | X TB               | Y GHz            | Z GB                |
+| Time Range 2    | X TB                        | X TB               | Y GHz            | Z GB                |
+| Time Range 3    | X TB                        | X TB               | Y GHz            | Z GB                |
+
+_Note: Replace X, Y, Z with the appropriate values for storage, processing power, and
+memory respectively._ _Note: For Time Range use the format_ `YYYY-YYYY` _for years or_
+`YYYY-MM-DD-YYYY-MM-DD` _for more fine grained definition._
+
 ## One-off Workflow or Recurring Processes
 
-Is this a workflow that will be executed one time or not very often (e.g. yearly) or is this a recurring process (e.g. "daily data processing").
-Details about the frequency of this workflow (e.g. how often will this be executed), for example: "each time new data is taken (how often will this be)" "daily", "monthly", "3 days a month", ...
+Is this a workflow that will be executed one time or not very often (e.g. yearly) or is
+this a recurring process (e.g. "daily data processing"). Details about the frequency of
+this workflow (e.g. how often will this be executed), for example: "each time new data
+is taken (how often will this be)" "daily", "monthly", "3 days a month", ...
 
 ## Output Data Products
 
@@ -55,18 +84,15 @@ Describe the Output Data Products. File format, size, number of files.
 - Product One: Description and specifications.
 - Product Two: Description and specifications.
 
-## User Acess
-
-Who will have to have access to the data.
 
 ## Time Constraints
 
 Details on any time-sensitive aspects of the workflow. How fast after data taking does
 this workflow has to be executed after data has been taken.
 
-## Concurracy
+## Concurrency
 
-Do other workflows have to run paralell to this one? E.g. other projects 
+Do other workflows have to run parallel to this one? E.g. other projects 
 
 - Workflow Name 1
 - Workflow Name 2
@@ -74,7 +100,10 @@ Do other workflows have to run paralell to this one? E.g. other projects
 ## Software Stack
 
 Outline the software tools, libraries, and frameworks expected to be used in the
-workflow. Include versions if specific ones are required. This is to get an overview of the software stack that will have to be supported and/or to streamline the development across workflows to use a uniform software stack where possible. For the start this can be brief. Please just name the tools and packages.
+workflow. Include versions if specific ones are required. This is to get an overview of
+the software stack that will have to be supported and/or to streamline the development
+across workflows to use a uniform software stack where possible. For the start this can
+be brief. Please just name the tools and packages.
 
 ### Core Analysis Tools
 
@@ -112,4 +141,5 @@ Ideas or plans for future updates to the workflow.
 
 ---
 
-Remember to update this document as the workflow evolves or as new requirements are identified.
+Remember to update this document as the workflow evolves or as new requirements are
+identified.
