@@ -1,5 +1,6 @@
 [FYST]
 name = "FYST"
+description = "Fred Young Submillimeter Telescope"
 lon_deg = 50
 lat_deg = 40
 alt_m = 5600
