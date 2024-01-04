@@ -1,7 +1,7 @@
 [CHAI]
 name = "CHAI"
 description = "CHAI is a heterdyne reciever"
-type = "heterodyne"
+instrument_type = "heterodyne"
 telescope = "FYST"
 
 [CHAI.module.LFA]
@@ -17,7 +17,7 @@ pixels = 64
 name = "Prime-Cam"
 description = "Prime-Cam is a camera"
 telescope = "FYST"
-type = "bolometer"
+instrument_type = "bolometer"
 
 [Prime-Cam.module.EoRSpec]
 name = "EoRSpec"
