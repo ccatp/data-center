@@ -2,5 +2,5 @@
 name = "FYST"
 lon_deg = 50
 lat_deg = 40
-height_m = 5600
+alt_m = 5600
 observatory = "CCAT"
