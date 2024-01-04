@@ -1,12 +1,14 @@
 [CHAI]
 name = "CHAI"
 description = "CHAI is a heterdyne reciever"
+type = "heterodyne"
+telescope = "FYST"
 
-[CHAI.modules.LFA]
+[CHAI.module.LFA]
 name = "LFA"
 pixels = 64
 
-[CHAI.modules.HFA]
+[CHAI.module.HFA]
 name = "HFA"
 pixels = 64
 
@@ -14,21 +16,23 @@ pixels = 64
 [Prime-Cam]
 name = "Prime-Cam"
 description = "Prime-Cam is a camera"
+telescope = "FYST"
+type = "bolometer"
 
-[Prime-Cam.modules.EoRSpec]
+[Prime-Cam.module.EoRSpec]
 name = "EoRSpec"
 
-[Prime-Cam.modules.220GHz]
+[Prime-Cam.module.220GHz]
 name = "220GHz"
 
-[Prime-Cam.modules.280GHz]
+[Prime-Cam.module.280GHz]
 name = "280GHz"
 
-[Prime-Cam.modules.350GHz]
+[Prime-Cam.module.350GHz]
 name = "350GHz"
 
-[Prime-Cam.modules.410GHz]
+[Prime-Cam.module.410GHz]
 name = "410GHz"
 
-[Prime-Cam.modules.850GHz]
+[Prime-Cam.module.850GHz]
 name = "850GHz"
